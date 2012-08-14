@@ -1,0 +1,29 @@
+{
+  "name": "fspullstream",
+  "version": "0.0.1",
+  "description": "File reader API compatible with pullstream.",
+  "main": "fspullstream.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit ./test/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nearinfinity/node-fspullstream/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nearinfinity/node-fspullstream.git"
+  },
+  "keywords": [
+    "pullstream",
+    "fs",
+    "file"
+  ],
+  "devDependencies": {
+    "nodeunit": "~0.7.4",
+    "stream-buffers": "~0.2.3"
+  },
+  "dependencies": {
+    "over": "~0.0.5"
+  }
+}
