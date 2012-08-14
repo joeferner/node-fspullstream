@@ -1,7 +1,7 @@
 {
   "name": "fspullstream",
   "version": "0.0.1",
-  "description": "File reader API compatible with pullstream.",
+  "description": "PullStream compatible file reader.",
   "main": "fspullstream.js",
   "scripts": {
     "test": "./node_modules/.bin/nodeunit ./test/"
